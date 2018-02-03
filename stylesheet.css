@@ -12,11 +12,17 @@ body {
   top: 0;
 }
 
-.flag {
-  height: 325px;
+.wrapper {
   margin: 0 auto;
+  width: 1000px; /* height = 52.63% */
+}
+
+/* Flag dimensions as specified here: http://www.vexman.net/flagspec.htm */
+.flag {
+  display: inline-block;
+  padding-top: 52.63%;
   position: relative;
-  width: 617.5px;
+  width: 100%;
 }
 
 .flag__stripes {
@@ -30,8 +36,7 @@ body {
 
 .flag__stripes-stripe {
   background-color: #B22234;
-  height: 25px;
-  position: relative;
+  height: 7.6923%;
 }
 
 .flag__stripes-stripe:nth-child(even) {
@@ -40,20 +45,23 @@ body {
 
 .flag__union {
   background: #3C3B6E;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  height: 175px;
+  height: 53.8461%;
   left: 0;
-  padding: 0 13.3962px;
+  padding: 0 2.1684%;
   position: absolute;
   top: 0;
+  width: 39.9997%;
   z-index: 200;
 }
 
 .flag__union-lane {
   display: flex;
+  flex-basis: 100%;
   flex-direction: column;
-  width: 20.02px;
+  width: 8.1052%;
 }
 
 .flag__union-lane:nth-child(even) {
@@ -64,8 +72,7 @@ body {
   background-color: transparent;
   background-image: url('./star.svg');
   background-repeat: no-repeat;
-  background-size: 20.02px;
-  height: 20.02px;
-  margin-top: 13px;
-  width: 20.02px;
+  background-size: 100%;
+  padding-top: 100%;
+  width: 100%;
 }
