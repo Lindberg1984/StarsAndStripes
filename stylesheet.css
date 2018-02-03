@@ -1,5 +1,19 @@
+body {
+  align-items: center;
+  background-color: #F8F8F8;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .flag {
   height: 325px;
+  margin: 0 auto;
   position: relative;
   width: 617.5px;
 }
