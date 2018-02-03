@@ -1,0 +1,44 @@
+body {
+  padding: 20px;
+}
+
+.flag {
+  background-color: #FF0000;
+  display: block;
+  height: 260px;
+  position: relative;
+  width: 500px;
+}
+
+.flag__stripes {
+  bottom: 0;
+  color: #FFF;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.flag__stripes-stripe {
+  background-color: #FFF;
+  display: block;
+  height: 20px;
+}
+
+.flag__stripes-stripe:nth-child(odd){
+  background-color: #FF0000;
+}
+
+.flag__stripes-stripe:nth-child(even){
+  background-color: #FFF;
+}
+
+.flag__union {
+  background-color: #00008B;
+  height: 140px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
