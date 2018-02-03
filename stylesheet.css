@@ -106,15 +106,3 @@ body {
   transform: rotate(286deg);
   width: 0;
 }
-
-.gone-bad {
-  border-bottom-color: #000;
-}
-
-.gone-bad:after {
-  border-bottom-color: #000;
-}
-
-.gone-bad:before {
-  border-bottom-color: #000;
-}
