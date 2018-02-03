@@ -1,16 +1,16 @@
 jQuery(document).ready(function ($) {
 
-  function getRandomArbitrary(min, max) {
+  function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
   }
 
   function fallToGround($element) {
-    var delay = getRandomArbitrary(0, 4);
+    var delay = getRandomInt(0, 4);
     var timeout;
 
     timeout = setTimeout(function () {
-      var duration = getRandomArbitrary(100, 125);
-      var distance = getRandomArbitrary(2000, 4000);
+      var duration = getRandomInt(100, 125);
+      var distance = getRandomInt(2000, 4000);
 
       $element.animate({
         bottom: '-' + distance + 'px'
