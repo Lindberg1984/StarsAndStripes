@@ -60,49 +60,12 @@ body {
   padding-top: 16px;
 }
 
-.flag__union-star-wrapper {
-  padding-top: 26px;
-  position: relative;
-  zoom: 0.5;
-}
-
 .flag__union-star {
-  border-bottom: 15.015px solid #FFFFFF;
-  border-left: 20.02px solid transparent;
-  border-right: 20.02px solid transparent;
-  display: block;
-  height: 0;
-  margin: 12.012px 0;
-  position: relative;
-  transform: rotate(37deg);
-  transition: all 300ms;
-  width: 0;
-}
-
-.flag__union-star:before {
-  border-bottom: 14.014px solid #FFFFFF;
-  border-left: 4.6713px solid transparent;
-  border-right: 4.6713px solid transparent;
-  content: "";
-  display: block;
-  height: 0;
-  left: -12.012px;
-  position: absolute;
-  top: -9.3426px;
-  transform: rotate(323deg);
-  width: 0;
-}
-
-.flag__union-star:after {
-  border-bottom: 15.015px solid #FFFFFF;
-  border-left: 20.02px solid transparent;
-  border-right: 20.02px solid transparent;
-  content: "";
-  display: block;
-  height: 0;
-  left: -20.02px;
-  position: absolute;
-  top: 0;
-  transform: rotate(286deg);
-  width: 0;
+  background-color: transparent;
+  background-image: url('./star.svg');
+  background-repeat: no-repeat;
+  background-size: 20.02px;
+  height: 20.02px;
+  margin-top: 13px;
+  width: 20.02px;
 }
